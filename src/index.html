@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="main.css">
+
+  <title>Frontend Mentor | Contact form</title>
+</head>
+<body>
+<main>
+  <form id="myform">
+    <h2 style="padding: 20px 0 10px 12px;">Contact Us</h2>
+
+    <div class="form-group">
+      <div class="field">
+        <label for="FirstName" class="fn">First Name* <br>
+          <input type="text" id="FirstName" name="FirstName">
+        </label>
+      </div>
+      <div class="field">
+        <label for="LastName" class="ln">Last Name* <br>
+          <input type="text" id="LastName" name="LastName">
+        </label>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="Email" class="email">Email* <br>
+        <input type="email" id="Email" name="Email">
+      </label>
+    </div>
+
+    <div class="mainquery">
+      <div class="query1">
+        <label for="query1" class="query-label">Query Type *<br>
+          <div class="input-wrapper">
+            <input type="text" id="query1" name="query1" placeholder="General Enquery">
+            <input type="radio" id="query1Radio" name="queryRadio" value="option1" class="radio-in-field" >
+          </div>
+        </label>
+      </div>
+      <div class="query2">
+        <label for="query2">
+          <div class="input-wrapper">
+            <input type="text" id="query2" name="query2" placeholder="Support Request">
+            <input type="radio" id="query2Radio" name="queryRadio" value="option2" class="radio-in-field">
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <div class="messagefield">
+      <label for="Message" class="message">Message*<br>
+        <textarea id="Message" name="Message" rows="3" cols="10" maxlength="300"></textarea>
+      </label>
+    </div>
+
+    <div class="checkboxfield">
+      <input type="checkbox" class="checkbox"><label >I consent to beign contacted by the team *</label>
+    </div>
+
+    <button class="full-width-button">Click Me</button>
+
+  </form>
+</main>
+
+
+
+
+</body>
+</html>
